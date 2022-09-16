@@ -1,0 +1,4 @@
+import streamlit as st
+import pickle
+pickle_in=open('exp 4.pickle','rb')
+model=pickle.load(pickle_in)
